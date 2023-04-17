@@ -1,3 +1,36 @@
 body {
     background-color: lightgoldenrodyellow;
 }
+
+nav{
+    background-color: white;
+
+}
+nav > ul{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul > li{
+    list-style: none;
+    border: 1px solid lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+} 
+
+nav ul > li:hover > ul{
+    display: block;
+}
+
+
